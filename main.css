@@ -1,15 +1,24 @@
 .navbar {
     border-radius: 0px;
     margin-bottom: 0px;
+    z-index: 1;
+    background: #000;
 }
-#videobcg {
+.jumbotron {
+  height: 685px;
+  position: relative;
+}
+.container {
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
     position: absolute;
-     top: 0px;
-     left: 0px;
-     min-width: 100%;
-     min-height: 100%;
-     width: auto;
-     height: auto;
-     z-index: -1000;
-     overflow: hidden;
+}
+video {
+	position: absolute;
+    left: 0%;
+	z-index: 0;
+    width: 100%;
 }
