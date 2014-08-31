@@ -1,15 +1,23 @@
+/* Navigation */
 @import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+@font-face {
+    font-family: KaushanScript;
+    src: url("kaushanscript-regular.otf");
+}
 .navbar {
     border-radius: 0px;
     margin-bottom: 0px;
     z-index: 1;
-    background: #000;
+    /*background: #000;*/
+    background-color: rgba(0,0,0,0.1)
 }
 .navbar-brand {
-    font-family: 'Oleo Script', cursive;
+    font-family: KaushanScript;
+    /*font-family: 'Oleo Script', cursive;*/
 }
 /* Video */
 .jumbotron {
+  top: -51px;
   height: 607px;
   position: relative;
 }
@@ -28,11 +36,31 @@ video {
 	z-index: 0;
     width: 100%;
 }
-.jumbotron h1 {
+.jumbotron .header {
     position: absolute;
     z-index: 2;
-    font-family: 'Oleo Script', cursive;
+    font-family: KaushanScript;
     text-align: center;
     left: 0;
     right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 150px;
+    color: #e5e2e2;
+}
+.jumbotron .header h1 {
+    font-size: 6em;
+}
+.jumbotron .header p {
+    /*border-bottom: 1px solid #e5e2e2;*/
+    border-width: thin;
+    width: 29%;
+    margin: 0 auto;
+    padding-bottom: 4px;
+}
+.jumbotron span {
+    font-size: 4em;
+    padding-top: 7%;
+    color: rgba(229,226,226,0.1);
 }
