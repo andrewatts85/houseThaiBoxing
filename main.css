@@ -64,3 +64,12 @@ video {
     padding-top: 7%;
     color: rgba(229,226,226,0.1);
 }
+.pricing {
+    background-image: url("http://www.pageresource.com/wallpapers/wallpaper/themebenzo-image-texture_1104800.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 475px;
+    z-index: 3;
+    margin-top: -81px;
+}
